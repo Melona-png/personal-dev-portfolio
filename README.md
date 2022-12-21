@@ -10,8 +10,8 @@ Creating this helped highlight my strengths and weaknesses in order for me to de
 
 This web application hosts a personal dev portfolio.
 
-'''md
+
 ![DevPortfolioScreenShot](assets/screencap.png)
-'''
+
 
 https://melona-png.github.io/personal-dev-portfolio/
