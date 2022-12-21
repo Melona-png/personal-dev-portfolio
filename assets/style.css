@@ -120,7 +120,7 @@ p {
   flex-wrap: nowrap;
   white-space: nowrap;
   overflow: hidden;
-  font-family:Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .work-images {
@@ -135,7 +135,7 @@ p {
 .image-one {
   width: 100%;
   height: 500px;
-  background-image: url(./assets/e30.png);
+  background-image: url(./e30.png);
   background-position: 50% 70%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,7 +147,7 @@ p {
 .two {
   width: 48%;
   height: 200px;
-  background-image: url(./assets/roadlighttrail.png);
+  background-image: url(./roadlighttrail.png);
   background-position: 80% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,7 +159,7 @@ p {
   width: 48%;
   height: 200px;
 
-  background-image: url(./assets/ice.png);
+  background-image: url(./ice.png);
   background-position: 50% 54%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,7 +172,7 @@ p {
 .four {
   width: 48%;
   height: 200px;
-  background-image: url(./assets/sunsetphone.png);
+  background-image: url(./sunsetphone.png);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +184,7 @@ p {
   width: 48%;
   height: 200px;
   margin-left: 3vw;
-  background-image: url(./assets/volcano.jpeg);
+  background-image: url(./volcano.jpeg);
   background-position: 20% 50%;
   background-repeat: no-repeat;
   background-size: cover;
