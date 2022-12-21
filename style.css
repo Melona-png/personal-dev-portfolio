@@ -120,6 +120,7 @@ p {
   flex-wrap: nowrap;
   white-space: nowrap;
   overflow: hidden;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 .work-images {
