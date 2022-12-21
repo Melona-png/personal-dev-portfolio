@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+}
+
+/* top bar */
+header {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* top bar title/text */
+.top-heading {
+  padding: 30px 30px 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 44px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+/* nav items */
+.li {
+  margin-right: 20px;
+  padding: 20px;
+  color: white;
+  list-style: none;
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.banner-text-box {
+  position: relative;
+}
+
+.text-in-box {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.322);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* image */
+.img-banner {
+  width: 100%;
+}
+
+.div-container1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#div1 {
+  padding: 5px;
+  width: 150px;
+  min-height: 150px;
+  overflow-x: hidden;
+  background-color: rgb(2, 2, 2);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+/* container for section under image */
+.about-me {
+  width: 100%;
+}
+
+/* paragraph text with div container 1 */
+
+p {
+  padding: 0px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
+}
+
+.work-container {
+  width: 100%;
+  min-height: 1000px;
+  display: flex;
+  padding: 5px;
+  overflow-x: hidden;
+}
+
+.title {
+  padding: 5px;
+  width: 150px;
+  min-height: 1000px;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.work-images {
+  padding: 5px;
+  min-height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.image-one {
+  width: 100%;
+  height: 500px;
+  background-image: url(./assets/e30.png);
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.two {
+  width: 48%;
+  height: 200px;
+  background-image: url(./assets/roadlighttrail.png);
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.five {
+  width: 48%;
+  height: 200px;
+
+  background-image: url(./assets/ice.png);
+  background-position: 50% 54%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 3vw;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.four {
+  width: 48%;
+  height: 200px;
+  background-image: url(./assets/sunsetphone.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.three {
+  width: 48%;
+  height: 200px;
+  margin-left: 3vw;
+  background-image: url(./assets/volcano.jpeg);
+  background-position: 20% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.work-images {
+  color: white;
+}
+
+.work-images .five {
+  color: black;
+}
+
+.div-container3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* footer -contact section */
+#div3 {
+  background-color: rgb(0, 0, 0);
+  flex-shrink: 0;
+  flex-basis: 150px;
+  /* height: 250px; */
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  padding-top: 5px;
+}
+
+.footer {
+  padding: 5px;
+  width: 150px;
+  overflow-x: hidden;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 20px 20px 20px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* footer links */
+.footer a {
+  margin: 0px 40px;
+}
+
+@media screen and (max-width: 900px) {
+  .one {
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .two {
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .three {
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .four {
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .five {
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 1;
+    margin-left: 0px;
+  }
+}
